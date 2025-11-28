@@ -1,6 +1,14 @@
 # Data Scientist Portfolio
 
+[![GitHub Pages](https://img.shields.io/badge/View%20Portfolio-Live%20Demo-FF3B5C?style=for-the-badge&logo=github)](https://SrihariR2004.github.io/Srihari)
+
 A futuristic, creative portfolio website for data scientists, built with modern web technologies and ready for GitHub Pages deployment.
+
+## 🌐 View the Portfolio
+
+**Live Demo:** [https://SrihariR2004.github.io/Srihari](https://SrihariR2004.github.io/Srihari)
+
+Simply click the link above to view the portfolio website!
 
 ## 🚀 Features
 
