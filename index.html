@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" id="meta-description" content="">
+    <title id="page-title">Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@400;700;900&family=Noto+Sans+KR:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-animation-container">
+            <!-- Animated Leaves Background -->
+            <div class="leaves-container">
+                <div class="leaf leaf-1"></div>
+                <div class="leaf leaf-2"></div>
+                <div class="leaf leaf-3"></div>
+                <div class="leaf leaf-4"></div>
+                <div class="leaf leaf-5"></div>
+                <div class="leaf leaf-6"></div>
+                <div class="leaf leaf-7"></div>
+                <div class="leaf leaf-8"></div>
+                <div class="leaf leaf-9"></div>
+                <div class="leaf leaf-10"></div>
+            </div>
+            <!-- Particle Effects -->
+            <div class="particles-container">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="shark-logo">
+                    <span class="letter s">s</span>
+                    <span class="letter r">r</span>
+                    <span class="letter i">i</span>
+                    <span class="letter h">h</span>
+                    <span class="letter a">a</span>
+                    <span class="letter r2">r</span>
+                    <span class="letter i2">i</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" id="hero-name" data-text="">
+                    <span></span>
+                </h1>
+                <p class="subtitle" id="hero-subtitle"></p>
+                <p class="description" id="hero-description"></p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="data-visualization">
+                    <div class="data-point" style="--delay: 0s"></div>
+                    <div class="data-point" style="--delay: 0.2s"></div>
+                    <div class="data-point" style="--delay: 0.4s"></div>
+                    <div class="data-point" style="--delay: 0.6s"></div>
+                    <div class="data-point" style="--delay: 0.8s"></div>
+                    <div class="data-point" style="--delay: 1s"></div>
+                    <div class="data-line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section - Conversational Style -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                About Me
+            </h2>
+            <div class="conversation-container" id="conversation-container">
+                <!-- Conversation messages injected via JS -->
+            </div>
+            <div class="tech-stack">
+                <h3>Technologies I work with:</h3>
+                <ul class="tech-list" id="tech-list">
+                    <!-- Injected via JS -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                Featured Projects
+            </h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects Injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                Skills & Expertise
+            </h2>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills Injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                Get In Touch
+            </h2>
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+                </p>
+                <a href="" class="btn btn-primary btn-large" id="contact-email">Say Hello</a>
+                <div class="social-links" id="social-links">
+                    <!-- Social Links Injected via JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Built with <span class="heart">❤</span> by <span id="footer-name"></span></p>
+            <p class="footer-year">© 2024</p>
+        </div>
+    </footer>
+
+    <!-- Load Config FIRST -->
+    <script src="config.js"></script>
+    <!-- Load Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
