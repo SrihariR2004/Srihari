@@ -65,14 +65,17 @@ git branch -M main
 git push -u origin main
 ```
 
-### Step 3: Enable GitHub Pages
+### Step 3: Enable GitHub Pages with GitHub Actions
 
 1. Go to your repository on GitHub
 2. Click on **Settings**
 3. Scroll down to **Pages** section
-4. Under **Source**, select `main` branch
+4. Under **Build and deployment** → **Source**, select `GitHub Actions`
 5. Click **Save**
-6. Your site will be live at `https://yourusername.github.io` in a few minutes!
+6. Push any change to the `main` branch or manually trigger the workflow from the **Actions** tab
+7. Your site will be live at `https://yourusername.github.io` in a few minutes!
+
+> **Important**: The repository includes a pre-configured GitHub Actions workflow (`deploy.yml`) that automatically deploys your site. Make sure to select "GitHub Actions" as the source, not "Deploy from a branch".
 
 ## 🎨 Customization
 
